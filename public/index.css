@@ -1,0 +1,36 @@
+body{
+    background-color:#97caef;
+}
+#prog{
+    margin-left: 2%;
+    font-weight: 400%;
+    font-size:300%;
+    color:#edf5e1;
+}
+a{
+    color:#05386b;
+}
+a:hover{
+   
+  color:#fc4445;
+}
+.headings{
+    display: flex;
+    flex-direction:column;
+    margin-left: 3%;
+    font-weight:200%;
+    font-size:200%;
+    color:black;
+}
+#nav1{
+    background-color:#537585;
+    display:flex;
+    justify-content: space-around;
+}
+#sort_algo{
+    font-weight:100;
+    font-size:100%;
+    color:rgb(75, 73, 73);
+}
+
+
