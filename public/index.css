@@ -7,6 +7,10 @@ body{
     font-size:300%;
     color:#edf5e1;
 }
+li{
+    background-color: #537585;
+    margin :2%;
+}
 a{
     color:#05386b;
 }
@@ -17,6 +21,7 @@ a:hover{
 .headings{
     display: flex;
     flex-direction:column;
+    justify-content: space-between;
     margin-left: 3%;
     font-weight:200%;
     font-size:200%;
