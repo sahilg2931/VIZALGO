@@ -99,7 +99,7 @@ let set_id = (i) => {//sets the properties of the bar according to the array
 
 //swap_id(map_id.get(i), map_id.get(i - 1));
 let SHELL_SORT = async () => {
-    desc.innerHTML = "Here the pointer is at blue bar and the sorted space lies behind the blue bar.The green pointer finds the minimum element(red bar) and swaps it with blue bar which is its correct posn";
+    desc.innerHTML = "Here the red pointer sequentially swaps with elements at gap distance behind it until the element at red finds a smaller element.The gap keeps reducing by  half";
     desc.style.color = "Blue";
     let n = array.length;
     for (let gap = Math.floor(n / 2); gap > 0; gap = Math.floor(gap / 2)) {
