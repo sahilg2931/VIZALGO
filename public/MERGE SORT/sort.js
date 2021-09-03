@@ -220,7 +220,18 @@ sz_arr.addEventListener('change', async (evt) => {// on change event listener fo
     //reset();
     sz_disp.innerHTML = `Size of Array `;
 })
-
+rev.addEventListener('click', async () => {
+    let i = 0, j = array.length - 1;
+    while (i < j) {
+        let temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+        set_id(i);
+        set_id(j);
+        ++i;
+        --j;
+    }
+})
 toggle_num.addEventListener('click', async (evt) => {//to togggle numbers
     evt.preventDefault();
     toggle = 1 - toggle;

@@ -1,5 +1,5 @@
 body{
-    background-color:#97caef;
+    background-color:black;
 }
 #prog{
     margin-left: 2%;
@@ -8,21 +8,22 @@ body{
     color:#edf5e1;
 }
 li{
-    background-color: #537585;
-    margin :2%;
+    
+    color:black;
+    
 }
 a{
-    color:#05386b;
+    color:#fc4445;
 }
 a:hover{
    
-  color:#fc4445;
+  color:white;
 }
 .headings{
     display: flex;
     flex-direction:column;
-    justify-content: space-between;
-    margin-left: 3%;
+    justify-content: space-around;
+    margin:4%;
     font-weight:200%;
     font-size:200%;
     color:black;
